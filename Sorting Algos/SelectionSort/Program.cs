@@ -9,7 +9,7 @@ static int[] SelectionSort(int[] array)
 {
 	for (int i = 0; i < array.Length; i++)
 	{
-		int smallest = int.MaxValue;
+		int smallest = int.MaxValue; // can be optimised slightly by removing this and changing the logic a bit
 		int index = 0;
 
 		for (int j = i; j < array.Length; j++)
