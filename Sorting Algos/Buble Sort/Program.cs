@@ -1,5 +1,5 @@
 ﻿
-int[] numbers = { 7,6,5,4,3,1,2};
+int[] numbers = { 11,8,5,4,3,9,2,20};
 
 int[] sortedArray = BubleSort(numbers);
 
