@@ -14,8 +14,10 @@ aq.Enqueue(10);
 aq.Enqueue(20);
 aq.Enqueue(30);
 
-Console.WriteLine(aq.Dequeue());
-Console.WriteLine(aq.Peek());
+while (queue.Count > 0)
+{
+	Console.WriteLine(queue.Dequeue());
+}
 
 static void Reverse(Queue<int> queue)
 {
