@@ -1,4 +1,4 @@
-﻿string sentence = "the impostor is sus";
+﻿string sentence = "therefore you must slay the dragon deez nuts";
 
 string character = FindFirstNonRepeatingCharacter(sentence);
 Console.WriteLine(character);
@@ -23,14 +23,12 @@ static string FindFirstNonRepeatingCharacter(string sentence)
 		dictionary[character]++;		
 	}
 
-	foreach (KeyValuePair<char, int> entry in dictionary)
+	foreach (var character in sentence)
 	{
-		if (dictionary[entry.Key] == 1)
+		if (dictionary[character] == 1)
 		{
-			firstChar = entry.Key.ToString();
-			return firstChar;
+			return character.ToString();
 		}
-		
 	}
 
 	return firstChar;
