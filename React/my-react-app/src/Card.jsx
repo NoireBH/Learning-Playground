@@ -1,13 +1,12 @@
-import pfp from './assets/test img.png'
 
-function Card(){
+function Card(props){
     return(
-    <div className='card'>
-        <img alt="purple image" src={pfp}>
-        </img>
-        <h1>This is a nice image</h1>
-        <p className='purpleText'>purple</p>
+    <div className={props.cardType}>
+        <img className="cardImg" alt={`${props.textColour} image`} src={props.img} />
+        <h1>{props.title}</h1>
+        <p className={props.textColour}>{props.text}</p>
     </div>
+    
     );
     
 }

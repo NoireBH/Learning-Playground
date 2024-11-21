@@ -1,4 +1,4 @@
-.card {
+.cardPurple {
   border: 1px solid purple;
   display: inline-block;
   text-align: center;
@@ -6,14 +6,38 @@
   border-radius: 10px;
   max-width: 250px;
   margin:10px;
-}
-.purpleText {
   color:purple;
+  font-weight: bold;
+
+}
+
+.cardGreen {
+  border: 1px solid green;
+  display: inline-block;
+  text-align: center;
+  box-shadow: 5px 5px 5px green;
+  border-radius: 10px;
+  max-width: 250px;
+  margin:10px;
+  color:green;
   font-weight: bold;
 }
 
-.card img {
+.cardBlue {
+  border: 1px solid blue;
+  display: inline-block;
+  text-align: center;
+  box-shadow: 5px 5px 5px blue;
+  border-radius: 10px;
+  max-width: 250px;
+  margin:10px;
+  color:blue;
+  font-weight: bold;
+}
+
+.cardImg {
+  margin-top: 10px;
   max-width: 60%;
   max-height: auto;
-  border-radius: 50%;
 }
+
