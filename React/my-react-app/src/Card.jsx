@@ -4,7 +4,7 @@ function Card(props){
     <div className={props.cardType}>
         <img className="cardImg" alt={`${props.textColour} image`} src={props.img} />
         <h1>{props.title}</h1>
-        <p className={props.textColour}>{props.text}</p>
+        <p className={props.textColour}>{"This is" + " " + props.text}</p>
     </div>
     
     );

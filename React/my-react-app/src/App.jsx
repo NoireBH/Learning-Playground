@@ -7,9 +7,9 @@ import pfpVergil from './assets/vergil.jpg'
 function App() {
   return (
     <>
-    <Card title="John" cardType="cardPurple" text="This is John" img={pfp} />
-<Card title="Halo" cardType="cardGreen" text="This is Halo" img={pfpHalo} />
-<Card title="Vergil" cardType="cardBlue" text="This is Vergil" img={pfpVergil} />
+    <Card title="John" cardType="cardPurple" text="John" img={pfp} />
+<Card title="Halo" cardType="cardGreen" text="Halo" img={pfpHalo} />
+<Card title="Vergil" cardType="cardBlue" text="Vergil" img={pfpVergil} />
 
     </>
       
