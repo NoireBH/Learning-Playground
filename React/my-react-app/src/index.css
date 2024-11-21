@@ -1,11 +1,19 @@
 .card {
   border: 1px solid purple;
   display: inline-block;
+  text-align: center;
+  box-shadow: 5px 5px 5px purple;
+  border-radius: 10px;
+  max-width: 250px;
+  margin:10px;
 }
 .purpleText {
   color:purple;
-  text-align: center;
+  font-weight: bold;
 }
-.h1Center{
-  text-align: center;
+
+.card img {
+  max-width: 60%;
+  max-height: auto;
+  border-radius: 50%;
 }

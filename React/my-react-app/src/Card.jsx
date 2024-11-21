@@ -5,7 +5,7 @@ function Card(){
     <div className='card'>
         <img alt="purple image" src={pfp}>
         </img>
-        <h1 className='h1Center'>This is a nice image</h1>
+        <h1>This is a nice image</h1>
         <p className='purpleText'>purple</p>
     </div>
     );
