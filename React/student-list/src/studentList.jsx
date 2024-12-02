@@ -31,6 +31,7 @@ function StudentList(props){
         propTypes.shape({
         name: propTypes.string.isRequired,
         age: propTypes.number,
+        grade: propTypes.number
       })
     ).isRequired,
   };
