@@ -36,10 +36,6 @@ function StudentList(props){
     ).isRequired,
   };
 
-// Login.defaultProps = {
-//     isLoggedIn: false,
-//     userName: "Guest"
-// }
 
 
 export default StudentList
